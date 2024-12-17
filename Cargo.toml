@@ -20,7 +20,7 @@ hashbrown = "0.15"
 [dev-dependencies]
 lazy_static = "1.4.0"
 rand = "0.8.3"
-criterion = {version ="0.3" , features  = ["html_reports"]}
+criterion = {version ="0.5" , features  = ["html_reports"]}
 
 [lib]
 crate-type = ["cdylib", "rlib"]
